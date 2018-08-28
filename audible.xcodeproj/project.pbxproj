@@ -12,6 +12,9 @@
 		B8FCE4422081B96200D95877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FCE4402081B96200D95877 /* Main.storyboard */; };
 		B8FCE4442081B96200D95877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8FCE4432081B96200D95877 /* Assets.xcassets */; };
 		B8FCE4472081B96200D95877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FCE4452081B96200D95877 /* LaunchScreen.storyboard */; };
+		B8FCE44F2081C67F00D95877 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FCE44E2081C67F00D95877 /* PageCell.swift */; };
+		B8FCE4512082FC7500D95877 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FCE4502082FC7500D95877 /* Page.swift */; };
+		C632FE7E2099A42800980066 /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C632FE7D2099A42800980066 /* LoginCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		B8FCE4432081B96200D95877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8FCE4462081B96200D95877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8FCE4482081B96200D95877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8FCE44E2081C67F00D95877 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		B8FCE4502082FC7500D95877 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		C632FE7D2099A42800980066 /* LoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				B8FCE43C2081B96200D95877 /* AppDelegate.swift */,
 				B8FCE43E2081B96200D95877 /* ViewController.swift */,
+				C632FE7D2099A42800980066 /* LoginCell.swift */,
+				B8FCE44E2081C67F00D95877 /* PageCell.swift */,
 				B8FCE4402081B96200D95877 /* Main.storyboard */,
 				B8FCE4432081B96200D95877 /* Assets.xcassets */,
 				B8FCE4452081B96200D95877 /* LaunchScreen.storyboard */,
 				B8FCE4482081B96200D95877 /* Info.plist */,
+				B8FCE4502082FC7500D95877 /* Page.swift */,
 			);
 			path = audible;
 			sourceTree = "<group>";
@@ -138,6 +147,9 @@
 			files = (
 				B8FCE43F2081B96200D95877 /* ViewController.swift in Sources */,
 				B8FCE43D2081B96200D95877 /* AppDelegate.swift in Sources */,
+				C632FE7E2099A42800980066 /* LoginCell.swift in Sources */,
+				B8FCE4512082FC7500D95877 /* Page.swift in Sources */,
+				B8FCE44F2081C67F00D95877 /* PageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
